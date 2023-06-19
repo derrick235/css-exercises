@@ -11,15 +11,19 @@ body {
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 button {
