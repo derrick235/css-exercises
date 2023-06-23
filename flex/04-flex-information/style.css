@@ -12,6 +12,17 @@ img {
   font-weight: 900;
 }
 
+.plants {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plantinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
