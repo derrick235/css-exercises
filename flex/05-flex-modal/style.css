@@ -32,6 +32,16 @@ body {
   flex-direction: column;
 }
 
+.heading {
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: auto;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
