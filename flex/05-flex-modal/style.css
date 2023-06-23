@@ -21,19 +21,15 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 15px;
+}
+
+.right, .heading, .buttons {
+  display: flex;
 }
 
 .right {
-  display: flex;
   flex-direction: column;
-}
-
-.heading {
-  display: flex;
-}
-
-.buttons {
-  display: flex;
 }
 
 .icon {
@@ -47,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
