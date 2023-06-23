@@ -22,10 +22,15 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   padding: 15px;
+  gap: 15px;
 }
 
 .right, .heading, .buttons {
   display: flex;
+}
+
+.right, .buttons {
+  gap: 8px;
 }
 
 .right {
@@ -38,7 +43,7 @@ body {
 
 .header {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   margin-right: auto;
 }
 
