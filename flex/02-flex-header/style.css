@@ -3,6 +3,9 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
 }
 
 .logo {
@@ -20,6 +23,8 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   gap: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
