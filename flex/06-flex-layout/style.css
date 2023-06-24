@@ -5,6 +5,19 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .content, .footer {
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
