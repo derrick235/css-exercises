@@ -52,10 +52,16 @@ a {
 
 .collection {
   flex: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 40px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
+  width: 300px;
 }
